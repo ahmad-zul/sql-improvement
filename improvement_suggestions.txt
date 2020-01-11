@@ -1,0 +1,4 @@
+Improvements to the sql:
+1. Make sure to index all the columns in each table that is use in search and filter.
+2. If possible, use '=' instead of 'LIKE'. Because '=' compares the whole string and 'LIKE' compares character by character which can be a little slower.
+3. 
